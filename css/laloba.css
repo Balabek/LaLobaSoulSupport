@@ -527,7 +527,7 @@ article.standard_body_text {
 
 article.standard_body_text p {
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 300;
     color: #666666;
     line-height: 1.6;
     margin-bottom: 18px;
@@ -724,6 +724,7 @@ a.wwm_moreinfolink:hover > i {
     z-index: 0;
 }
 
+.txt_whiten > p {color: #ffffff !important;}
 .txt_whiten {color: #ffffff !important;}
 
 .booknow_txt_holder {
@@ -738,7 +739,7 @@ article.mini_body_text {
 
 article.mini_body_text p {
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 300;
     color: inherit;
     line-height: 1.6;
     margin-bottom: 18px;
@@ -819,6 +820,15 @@ img.member_logo.size_reduction {
     height: 80px;
 }
 
+.deco_turq_low_left {
+    position: absolute;
+    z-index: 2;
+    width: 293px;
+    height: 24px;
+    left: 0;
+    bottom: -12px;
+    background: #0ABAB5;
+}
 
 
 
@@ -949,48 +959,495 @@ ul.footer_networking li a:hover {
 
 
 
+/* ••• */
+/* •••••••••••••••• */
+/* ••• */
+
+/* ============= */
+/* =========== ABOUT (INNER PAGE) =========== */
+/* ============= */
+
+.laloba_inner_header_area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 330px;
+    height: auto;
+    text-align: center;
+}
+
+.laloba_inner_header_area:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.33);
+}
+
+h2.inner_header_title {
+    position: relative;
+    z-index: 2;
+    font-family: 'Kudry', serif;
+    font-size: 5.4rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* •••••••• My Story (Section) •••••••• */
+
+.mystory_area {
+    position: relative;
+    min-height: 696px;
+    height: auto;
+    background-color: #fefefe;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+
+.mystory_area_outermost {
+    position: relative;
+    padding-top: 90px;
+}
+
+.mystory_small_deco {
+    position: absolute;
+    z-index: 0;
+    width: 58px;
+    height: 52px;
+    bottom: -20px;
+    left: 100px;
+    background: #DDC84E;
+}
+
+.mystory_rectangle_xl_deco {
+    position: absolute;
+    height: 330px;
+    width: 70%;
+    right: 50px;
+    top: 50px;
+    z-index: 0;
+    background: rgba(124, 110, 95, 0.05);
+}
+
+img.mystory_image {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* •••••••• Transformation (Section) •••••••• */
+
+.transformation_area {
+    position: relative;
+    display: block;
+    min-height: 720px;
+    height: auto;
+    background-color: #2C4251;
+}
+
+.transformation_txt_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 60px;
+}
+
+.transformation_image_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+}
+
+img.transformation_image {
+    display: block;
+    position: relative;
+    height: 720px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+h3.transformation_ttl {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding-left: 28px;
+    padding-right: 28px;
+    z-index: 2;
+    font-family: 'Kudry', serif;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+
+/* •••••••• Legend of La Loba (Section) •••••••• */
+
+.legend_area {
+    position: relative;
+    display: block;
+    min-height: 888px;
+    height: auto;
+    padding-top: 65px;
+    padding-bottom: 55px;
+    background: #fefefe;
+}
+
+.legend_image_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 50px;
+}
+
+img.legend {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    object-fit: contain;
+}
+
+.legend_txt_holder {
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 32px;
+}
+
+
+small.legend_postnote {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: left;
+}
+
+span.postnote_dash {
+    color: #DDC84E;
+}
+
+span.legend_book_ttl {
+    font-weight: 600 !important;
+    font-style: italic !important;
+}
+
+
+/* •••••••• Quote (Section) •••••••• */
+
+.quote_area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #F6F8FF;
+}
+
+.quote_holder {
+    display: inline-block;
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.quote_holder h3 {
+    font-family: 'Kudry', serif;
+    font-size: 4rem;
+    color: #2A3335;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 12px;
+}
+
+small.quote_author {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2C4251;
+    text-align: left;
+}
+
+.abstract_flower_deco.one {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.8;
+    width: 18vw;
+    height: 600px;
+    top: -140px;
+    right: 0;
+    background: url("../img/abstract_flower.svg") no-repeat;
+    background-size: contain;
+}
+
+.quote_deco.one {
+    position: absolute;
+    width: 170px;
+    height: 35px;
+    left: 0;
+    top: -17px;
+    background: #DDC84E;
+}
+
+
+/* •••••••• Journey of Transformation (Section) •••••••• */
+
+.journey_area {
+    position: relative;
+    display: block;
+    min-height: 820px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f9f9f9;
+}
+
+.journey_txt_holder {
+    display: block;
+    width: 83%;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.journey_video_button_holder {
+    padding-top: 32px;
+}
+
+a.journey_vid_cta_button {
+    display: inline-grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    z-index: 2;
+    height: 65px;
+    width: 300px;
+    border-radius: 1px;
+    background: #0ABAB5;
+    font-style: normal;
+    color: #ffffff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.4s ease-in;
+}
+
+a.journey_vid_cta_button:hover {
+    background: #088c88;;
+    color: #ffffff;
+}
+
+img.wolves_deco {
+    position: absolute;
+    z-index: 0;
+    bottom: 20px;
+    left: -40px;
+    width: 700px;
+    height: 700px;
+    mix-blend-mode: multiply;
+    object-fit: contain;
+}
+
+
+/* •••••••• Another Way (Section) •••••••• */
+
+.another_way_area {
+    position: relative;
+    display: block;
+    min-height: 785px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+article.anotherway_body_text {
+    position: relative;
+    z-index: 1;
+    padding-top: 28px;
+    margin-bottom: 28px;
+    padding-right: 23px;
+    max-height: 465px;
+    overflow-y: auto;
+}
+
+article.anotherway_body_text p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: inherit;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.blurrer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 2;
+    background: url("../img/blurrer.png") center center no-repeat;
+    background-size: contain;
+}
+
+article.anotherway_body_text::-webkit-scrollbar {
+    width: 2px;
+}
+
+article.anotherway_body_text::-webkit-scrollbar-thumb {
+    background: linear-gradient(transparent, #DDC84E);
+    border-radius: 9px;
+}
+
+article.anotherway_body_text::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(transparent, #0ABAB5);
+}
+
+
+/* •••••••• Training (Section) •••••••• */
+
+.training_area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 800px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: #fefefe;
+}
+
+.training_txt_holder {
+    padding-left: 50px;
+}
+
+ul.training_list {
+    position: relative;
+    padding-left: 0;
+}
+
+ul.training_list li {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #666666;
+    list-style-type: none;
+    margin-bottom: 24px;
+    text-indent: -22px;
+    margin-left: 22px;
+}
+
+ul.training_list li::before {
+    position: relative;
+    top: -1px;
+    font-family: "Font Awesome 6 Free";
+    content: '\f058';
+    font-weight: 800;
+    font-size: 1rem;
+    color: #0ABAB5;
+    margin-right: 8px;
+}
+
+.training_image_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 0;
+}
+
+img.training_image {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    object-fit: contain;
+}
+
+
+/* •••••••• La Loba (Section) •••••••• */
+
+.laloba_area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 800px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    background: #f9f9f9;
+}
+
+.laloba_huge_logo_holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 0;
+}
+
+img.laloba_logo_xxxl {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.laloba_txt_holder {
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.abstract_flower_deco.two {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.9;
+    width: 20vw;
+    height: 720px;
+    top: -220px;
+    left: 0;
+    background: url("../img/abstract_flower_2.svg") no-repeat;
+    background-size: contain;
+}
+
+.deco_turq_low_right {
+    position: absolute;
+    z-index: 2;
+    width: 293px;
+    height: 24px;
+    right: 0;
+    bottom: -12px;
+    background: #0ABAB5;
+}
 
 
 
 
 
+/* ••• */
+/* •••••••••••••••• */
+/* ••• */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ============= */
+/* =========== SERVICES (INNER PAGE) =========== */
+/* ============= */
 
