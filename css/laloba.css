@@ -1451,3 +1451,262 @@ img.laloba_logo_xxxl {
 /* =========== SERVICES (INNER PAGE) =========== */
 /* ============= */
 
+.all_services_area {
+    position: relative;
+    display: block;
+    min-height: 960px;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    background: rgba(143, 151, 121, 0.01);
+}
+
+.all_services_txt_holder {
+    position: relative;
+    display: block;
+    width: 78%;
+    margin: 0 auto;
+    padding-top: 2px;
+    margin-bottom: 42px;
+}
+
+.servicebox_outermost {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+.service_box {
+    position: relative;
+    width: 90% !important;
+    height: 575px;
+    padding: 0;
+    /*margin-right: 64px;*/
+    background: #FFFFFF;
+    box-shadow: 0 4px 210px rgba(0, 0, 0, 0.12);
+}
+
+img.service_box_pic {
+    display: inline-block;
+    width: 100%;
+    height: 240px;
+    position: relative;
+    top: 0;
+    object-fit: cover;
+}
+
+.service_box_inner {
+    padding: 22px;
+}
+
+.service_box_inner h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2A3335;
+    height: 86px;
+    margin-bottom: 16px;
+}
+
+.service_box_inner p {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #666666;
+    margin-bottom: 16px;
+}
+
+a.service_box_moreinfolink {
+    position: absolute;
+    bottom: 18px;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    color: #DDC84E;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s all ease-in-out;
+}
+
+a.service_box_moreinfolink > i {
+    font-size: 0.98rem;
+    color: #DDC84E;
+    margin-left: 4px;
+    transition: 0.4s all ease-in-out;
+}
+
+a.service_box_moreinfolink:hover {
+    color: #a89838;
+}
+
+a.service_box_moreinfolink:hover > i {
+    color: #a89838;
+}
+
+.quick_contactbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90% !important;
+    height: 575px;
+    padding: 0;
+    background: url("../img/yellow_contact_ctabox.png") center center no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 210px rgba(0, 0, 0, 0.12);
+}
+
+.quick_contactbox_content_holder h4 {
+    font-family: 'Kudry', serif;
+    font-size: 2.2rem;
+    margin-bottom: 22px;
+}
+
+
+a.quick_contactbox_button {
+    display: inline-grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    height: 65px;
+    width: 300px;
+    border-radius: 1px;
+    background: rgba(42, 51, 53, 0.1);
+    border: 1px solid #2A3335;
+    font-style: normal;
+    color: #2A3335;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.4s ease-in;
+}
+
+a.quick_contactbox_button:hover {
+    background: rgba(42, 51, 53, 0.9);
+    border: 1px solid #2A3335;
+    color: #DDC84E;
+}
+
+
+
+
+
+/* ••• */
+/* •••••••••••••••• */
+/* ••• */
+
+/* ============= */
+/* =========== CONTACT (INNER PAGE) =========== */
+/* ============= */
+
+.contactform_main_area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 960px;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 155px;
+    background: rgba(143, 151, 121, 0.02);
+}
+
+form.laloba_contact_form {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 70%;
+    min-height: 600px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 1px;
+    padding: 25px 50px 50px 50px;
+    background: #FFFFFF;
+    box-shadow: 9px 4px 250px rgba(0, 0, 0, 0.1);
+}
+
+input.laloba_input {
+    height: 55px;
+    padding-left: 18px;
+    border-radius: 1px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #999999;
+    background: #F5F5F5;
+    border: none;
+}
+
+input.laloba_input:focus {
+    border: none;
+    background: #F5F5F5;
+    box-shadow: none !important;
+}
+
+.laloba_txtarea {
+    height: 250px;
+    padding-left: 18px;
+    padding-top: 18px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #999999;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 1px;
+    resize: none;
+}
+
+.laloba_txtarea:focus {
+    border: none;
+    background: #F5F5F5;
+    box-shadow: none !important;
+}
+
+.contact_submit_btn_holder {
+    padding-top: 32px;
+}
+
+button.laloba_send_btn {
+    display: inline-grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    z-index: 2;
+    height: 65px;
+    width: 300px;
+    border-radius: 1px;
+    background: #0ABAB5;
+    font-style: normal;
+    color: #ffffff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.4s ease-in;
+}
+
+button.laloba_send_btn:hover {
+    background: #088c88;;
+    color: #ffffff;
+}
+
+.contactform_deco_xl {
+    position: absolute;
+    z-index: 0;
+    width: 50vw;
+    height: 490px;
+    left: 140px;
+    top: 90px;
+    background: #2C4251;
+}
+
+.deco_yellow_low_left {
+    position: absolute;
+    z-index: 2;
+    width: 293px;
+    height: 24px;
+    left: 0;
+    bottom: -12px;
+    background: #DDC84E;
+}
+
