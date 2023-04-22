@@ -1169,7 +1169,7 @@ span.legend_book_ttl {
 
 .quote_holder h3 {
     font-family: 'Kudry', serif;
-    font-size: 4rem;
+    font-size: 2.7rem;
     color: #2A3335;
     text-align: left;
     padding: 0;
@@ -1709,4 +1709,226 @@ button.laloba_send_btn:hover {
     bottom: -12px;
     background: #DDC84E;
 }
+
+
+
+
+
+/* ••• */
+/* •••••••••••••••• */
+/* ••• */
+
+/* ============= */
+/* =========== RESOURCES (INNER PAGE) =========== */
+/* ============= */
+
+.contactform_main_area {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 960px;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 155px;
+    background: rgba(143, 151, 121, 0.02);
+}
+
+.abstract_flower_deco.three {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.9;
+    width: 100%;
+    height: 800px;
+    top: -100px;
+    left: 0;
+    background: url("../img/abstract_flower_3.svg") no-repeat;
+    background-size: contain;
+}
+
+small.quote_author span {
+    text-transform: none;
+}
+
+/* •••••••• Three Books (Section) •••••••• */
+
+.three_books_area {
+    position: relative;
+    min-height: 990px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 90px;
+    background: #fefefe;
+}
+
+.three_books_txt_holder {
+    padding-top: 32px;
+    margin-bottom: 32px;
+}
+
+.book_cover_holder {
+    text-align: center;
+    text-decoration: none;
+}
+
+.bookshadow {
+    padding-top: 50px;
+    background: linear-gradient(180deg, #F5EFCD 0%, rgba(245, 239, 205, 0) 100%);
+}
+
+.book_cover {
+    position: relative;
+    height: 475px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+small.quote_from_the_book {
+    font-size: 1.1rem;
+    display: inline-block;
+    width: 80%;
+    font-weight: 300;
+    font-style: italic;
+    color: #999999;
+    text-align: center;
+}
+
+
+/* •••••••• All Resources (Section) •••••••• */
+
+.all_resources_area {
+    position: relative;
+    min-height: 900px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 70px;
+    background: #f9f9f9;
+}
+
+.nav-link.resource_tab_link.active {
+    background: #2C4251 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.nav-link.resource_tab_link {
+    width: 88%;
+    font-size: 1.2rem;
+    line-height: 2.2;
+    font-weight: 400;
+    height: 50px;
+    background: #C5C8C8 !important;
+    color: #ffffff;
+    border: none;
+    border-radius: 1px !important;
+    margin-bottom: 12px;
+}
+
+.resource_data_holder {
+    border-left: 1px solid #e1e1e1;
+    padding-left: 36px;
+}
+
+.res_introduction {
+    margin-bottom: 44px;
+}
+
+h2.intro_ttl {
+    font-family: 'Kudry', serif;
+    font-size: 4rem;
+    color: #2C4251;
+}
+
+p.field_description {
+    font-size: 1.2rem;
+    color: #666666;
+    font-weight: 600;
+}
+
+h3.resource_type_subttl {
+    font-family: 'Kudry', serif;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #2A3335;
+    margin-bottom: 18px;
+}
+
+a.res_link {
+    position: relative;
+    display: block;
+    margin-bottom: 38px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+a.res_link:hover > h5.reslink_ttl  {
+    color: #bbbbbb !important;
+}
+a.res_link:hover > h5.reslink_ttl span.author  {
+    color: #bbbbbb !important;
+}
+a.res_link:hover > p.reslink_preview_text  {
+    color: #bbbbbb !important;
+}
+
+h5.reslink_ttl {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2C4251;
+    transition: all 0.4s ease;
+}
+
+span.author {
+    font-weight: 100;
+    font-style: italic;
+    color: rgba(44, 66, 81, 0.85);
+    transition: all 0.4s ease;
+}
+
+p.reslink_preview_text {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #666666;
+    transition: all 0.4s ease;
+}
+
+.artificial_gap {
+    margin-bottom: 32px;
+}
+
+.deco_yellow_low_left {
+    position: absolute;
+    z-index: 2;
+    width: 293px;
+    height: 24px;
+    left: 0;
+    bottom: -12px;
+    background: #DDC84E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
