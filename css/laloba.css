@@ -1911,24 +1911,489 @@ p.reslink_preview_text {
 
 
 
+/* ••• */
+/* •••••••••••••••• */
+/* ••• */
+
+/* ============= */
+/* =========== SPIRITUAL DIRECTION SERVICES (INNER PAGE) =========== */
+/* ============= */
+
+.the_way_up_is_the_way_down_area {
+    position: relative;
+    min-height: 900px;
+    background: #fefefe;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.the_way_up_is_the_way_down_area_outermost {
+    position: relative;
+    padding-top: 38px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+.standard_service_image_holder {
+    position: relative;
+}
+
+.standard_service_image {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 340px;
+    object-fit: contain;
+}
+
+.standard_service_image_deco.one {
+    position: absolute;
+    z-index: 0;
+    width: 475px;
+    height: 470px;
+    top: -24px;
+    right: -38px;
+    background: rgba(10, 186, 181, 0.05);
+}
+
+.standard_service_image_deco.two {
+    position: absolute;
+    z-index: 0;
+    width: 475px;
+    height: 470px;
+    top: -24px;
+    right: -38px;
+    background: rgba(221, 200, 78, 0.18);
+}
+
+.standard_service_text_holder {
+    position: relative;
+}
+
+.artificial_gap_2 {
+    margin-bottom: 90px;
+}
+
+
+/* •••••••• My Story (Blue I) (Section) •••••••• */
+
+.mystory_area.blue {
+    position: relative;
+    min-height: 696px;
+    height: auto;
+    background-color: #2C4251;
+    padding-top: 65px;
+    padding-bottom: 55px;
+}
+
+.mystory_area_outermost {
+    position: relative;
+    padding-top: 90px;
+}
+
+.mystory_small_deco {
+    position: absolute;
+    z-index: 0;
+    width: 58px;
+    height: 52px;
+    bottom: -20px;
+    left: 100px;
+    background: #DDC84E;
+}
+
+.mystory_rectangle_xl_deco_blue {
+    position: absolute;
+    z-index: 0;
+    height: 330px;
+    width: 70%;
+    right: 50px;
+    top: 50px;
+    background: #bebebe;
+    mix-blend-mode: multiply;
+}
+
+
+/* •••••••• Service FAQ (Section) •••••••• */
+
+.service_faq_area {
+    position: relative;
+    min-height: 900px;
+    background: #fefefe;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.faq_accordion_holder {
+    position: relative;
+    display: block;
+    padding-top: 32px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.accordion-item {
+    margin-bottom: 22px;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: 1px solid #E0E0E0 !important;
+    background: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+
+.accordion-button {
+    font-family: 'Kudry', serif;
+    font-size: 2.6rem !important;
+    color: #2A3335 !important;
+}
+
+.accordion-body {
+    font-size: 1.4rem !important;
+    color: #666666 !important;
+    font-weight: 300 !important;
+}
+
+p.faq_bodytext {
+    font-size: 1.4rem !important;
+    color: #666666 !important;
+    font-weight: 300 !important;
+    margin-bottom: 22px;
+}
+
+.accordion-button:not(.collapsed) {background-color: #f9f9f9 !important;}
+.accordion-button:not(.collapsed) {color: #666666;}
+.accordion-button {font-weight: normal;}
+.accordion-button:focus {box-shadow: none !important;}
+.accordion-button:not(:disabled) {color: #666666;}
+
+.accordion-button.collapsed::after {
+    width: 38px;
+    height: 38px;
+    background: url("../img/plus.svg") no-repeat !important;
+    background-size: contain !important;
+}
+
+.accordion-button::after {
+    position: relative;
+    top: 0 !important;
+    width: 38px;
+    height: 38px;
+    background: url("../img/minus.svg") no-repeat !important;
+    background-size: contain !important;
+}
+
+.accordion-body a {
+    color: #00A5E7;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.accordion-body a:hover {
+    color: rgba(0, 165, 231, 0.75);
+}
+
+.accordion-body {
+    background-color: transparent !important;
+}
+
+.accordion-item {
+    margin-bottom: 22px;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: 1px solid #E0E0E0 !important;
+    background: transparent !important;
+}
+
+
+/* •••••••• CTA Box (Section) •••••••• */
+
+.service_ctabox_holder {
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.service_box {
+    position: relative;
+    width: 100%;
+    min-height: 420px;
+    height: auto;
+    padding: 0;
+    background: #FFFFFF;
+    box-shadow: 0 42px 84px rgba(0, 0, 0, 0.04);
+}
+
+.service_ghostlink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.cta_uppermost {
+    width: 100%;
+    height: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta_uppermost.turq_1 {background: url("../img/servicebox_uppermost_turq_1.png") center center no-repeat; background-size: cover;}
+
+h4.cta_servicebox_ttl {
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.service_box_inner {
+    padding: 32px 25px 50px 25px;
+}
+
+p.service_box_description {
+    font-size: 1.3rem;
+    color: #666666;
+    height: 94px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.service_fee_holder {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 18px;
+}
+
+h4.service_fee {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #999999;
+    text-align: center;
+}
+
+h4.service_fee span {
+    font-size: 2.2rem;
+    font-weight: 300;
+}
 
 
 
 
 
+/* ••• */
+/* •••••••••••••••• */
+/* ••• */
+
+/* ============= */
+/* =========== ARCHETYPAL CONSULTATION SERVICES (INNER PAGE) =========== */
+/* ============= */
+
+.deco_yellow_low_right {
+    position: absolute;
+    z-index: 2;
+    width: 293px;
+    height: 24px;
+    right: 0;
+    bottom: -12px;
+    background: #DDC84E;
+}
+
+h5.faq_subttl {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #2C4251;
+    margin-bottom: 4px;
+}
+
+.additional_info_holder {
+    padding-top: 42px;
+    text-align: center;
+    width: 75%;
+    margin:  0 auto;
+}
+
+small.additional_info {
+    font-size: 1.1rem;
+    color: #666666;
+    font-weight: normal;
+    text-align: center;
+}
+
+small.additional_info > i {
+    font-size: 1.2rem;
+    color: #0ABAB5;
+    margin-right: 4px;
+}
+
+.abstract_flower_deco.three {
+    position: absolute;
+    z-index: 1;
+    opacity: 0.9;
+    width: 20vw;
+    height: 720px;
+    top: -40px;
+    left: 0;
+    background: url("../img/abstract_flower_2.svg") no-repeat;
+    background-size: contain;
+}
 
 
 
 
 
+/* ••• */
+/* •••••••••••••••• */
+/* ••• */
+
+/* ============= */
+/* =========== END OF LIFE DOULA SERVICE (INNER PAGE) =========== */
+/* ============= */
+
+h6.service_special_annotation {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #2C4251;
+    margin-bottom: 12px;
+}
+
+ul.service_list {
+    padding-left: 0;
+}
+
+.sacred_txt_holder {
+    display: block;
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 24px;
+}
+
+ul.service_list li {
+    list-style-type: none;
+    margin-bottom: 18px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #666666;
+    text-indent: -22px;
+    margin-left: 22px;
+}
+
+ul.service_list li::before {
+    position: relative;
+    top: -1px;
+    font-family: "Font Awesome 6 Free";
+    content: '\f111';
+    font-weight: 800;
+    font-size: 1.15rem;
+    color: #DDC84E;
+    margin-right: 8px;
+}
+
+.special_offer_outermost {
+    padding-top: 42px;
+    align-items: center;
+}
+
+img.special_offer_image {
+    position: relative;
+    width: 100%;
+    height: 410px;
+    object-fit: contain;
+}
+
+.special_offer_text_holder {
+    position: relative;
+    top: 22px;
+    padding-left: 26px;
+}
+
+h4.special_offer_ttl {
+    font-weight: 800;
+    font-size: 3.6rem;
+    color: #2C4251;
+}
+
+p.special_offer_text {
+    font-weight: 600;
+    font-size: 1.44rem;
+    color: #2C4251;
+}
 
 
+/* •••••••• Service Packages (Section) •••••••• */
 
+.service_packages_holder {
+    position: relative;
+    min-height: 999px;
+    height: auto;
+    background: #f9f9f9;
+    padding-top: 65px;
+    padding-bottom: 90px;
+}
 
+.package_txt_holder {
+    display: block;
+    width: 83%;
+    margin: 0 auto;
+    padding-top: 48px;
+    margin-bottom: 46px;
+}
 
+ul.service_features_list {
+    padding-left: 0;
+    margin-bottom: 86px;
+}
 
+ul.service_features_list li {
+    list-style-type: none;
+    margin-bottom: 14px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #666666;
+    text-indent: -22px;
+    margin-left: 22px;
+}
 
+ul.service_features_list li::before {
+    position: relative;
+    top: -1px;
+    font-family: "Font Awesome 6 Free";
+    content: '\f058';
+    font-weight: 800;
+    font-size: 1.15rem;
+    color: #999999;
+    margin-right: 8px;
+}
 
+.service_box_holder {
+    display: flex;
+    justify-content: center;
+}
 
+.service_box_eol {
+    position: relative;
+    width: 90% !important;
+    min-height: 585px;
+    margin-bottom: 65px;
+    height: auto;
+    padding: 0;
+    background: #FFFFFF;
+    box-shadow: 0 4px 210px rgba(0, 0, 0, 0.12);
+}
+
+.cta_uppermost.turq_2 {background: url("../img/servicebox_uppermost_turq_2.png") center center no-repeat; background-size: cover;}
+.cta_uppermost.yellow_1 {background: url("../img/servicebox_uppermost_yellow_1.png") center center no-repeat; background-size: cover;}
+.cta_uppermost.blue_1 {background: url("../img/servicebox_uppermost_blue_1.png") center center no-repeat; background-size: cover;}
+.cta_uppermost.beige_1 {background: url("../img/servicebox_uppermost_beige_1.png") center center no-repeat; background-size: cover;}
+.cta_uppermost.green_1 {background: url("../img/servicebox_uppermost_green_1.png") center center no-repeat; background-size: cover;}
+.cta_uppermost.grey_1 {background: url("../img/servicebox_uppermost_grey_1.png") center center no-repeat; background-size: cover;}
 
 
