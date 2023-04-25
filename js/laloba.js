@@ -5,6 +5,9 @@ $(document).ready(function(){
     // Work With Me slider
     $('.workwithmeslider').slick({
         dots: true,
+        customPaging: function(slider, i) {
+            return '<span class="dot-icon"><i class="fa-solid fa-minus"></i></span>';
+        },
         arrows: false,
         infinite: true,
         speed: 300,
@@ -45,6 +48,12 @@ $(document).ready(function(){
             }
         ]
     });
+
+
+
+
+
+
 
 
 

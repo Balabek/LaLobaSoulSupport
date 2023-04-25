@@ -1,0 +1,139 @@
+/* 𝙼𝚎𝚍𝚒𝚊 𝚀𝚞𝚎𝚛𝚒𝚎𝚜 */
+
+/* ====== */
+/* General + Nav */
+/* ====== */
+@media screen and (min-width: 2200px){
+    .h_banner_home {top: 35%;}
+}
+@media screen and (min-width: 2800px){
+    .h_banner_home {width: 45%;}
+}
+@media screen and (min-width: 3500px){
+    .h_banner_home {top: 40%;}
+    .h_banner_home {width: 40%;}
+}
+@media screen and (min-width: 4000px){
+    .h_banner_home {width: 35%;}
+}
+
+@media screen and (max-width: 991px){
+    .h_banner_home h1 {font-size: 3.6rem;}
+}
+
+@media screen and (max-width: 460px){
+    .h_banner_home {width: 96%;}
+    .h_banner_home h1 {font-size: 3rem;}
+}
+
+@media screen and (max-width: 385px){
+    .h_banner_home {top: 130px;}
+}
+
+
+
+/* ====== */
+/* Jennifer (section) */
+/* ====== */
+@media screen and (max-width: 1199px){
+    img.about_jen_image {right: 0;}
+    .about_bgd_deco_rectangle {width: 65%; left: -35px;}
+}
+
+@media screen and (max-width: 991px){
+    .about_jen_text_holder {padding-left: 32px;}
+}
+
+@media screen and (max-width: 575px){
+    .about_jen_text_holder {padding-left: 4px;}
+    .branches_deco {height: 320px; left: 20px; top: 60%;}
+    .about_jen {padding-left: 16px; padding-right: 16px;}
+}
+
+
+
+
+/* ====== */
+/* Work With Me (section) */
+/* ====== */
+@media screen and (max-width: 767px){
+    .wwm_box {width: 100% !important;}
+    .slick-dots {left: 0;}
+}
+
+
+
+/* ====== */
+/* Membership (section) */
+/* ====== */
+.member_logo_holder {margin-bottom: 42px;}
+
+
+
+
+/* ====== */
+/* Footer */
+/* ====== */
+@media screen and (max-width: 767px){
+    .footer_linx_holder {
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+
+    .bottommost_area {
+        bottom: 12px;
+    }
+
+    .moveable_links_set {left: 0;}
+
+    ul.footer_linx {margin-top: 0;}
+
+    .footer_logo_holder {margin-bottom: 36px;}
+
+    .postnote_holder {text-align: center;}
+
+    small.postnote {position: relative; top: -12px;}
+
+    .networking_holder {
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    ul.footer_networking {display: contents;}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
