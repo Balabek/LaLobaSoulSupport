@@ -245,14 +245,30 @@
 
 
 
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ------ ARCHETYPAL (INNER PAGE) ------ */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* ====== */
+/* The Way Down Is The Way Up (section) */
+/* ====== */
+@media screen and (max-width: 575px){
+    .the_way_up_is_the_way_down_area {padding-left: 16px; padding-right: 16px; padding-bottom: 22px;}
+}
 
 
 
+/* ====== */
+/* Service FAQ (section) */
+/* ====== */
+@media screen and (max-width: 575px){
+    .accordion-button {font-size: 2rem !important;}
+}
 
-
-
-
-
+@media screen and (max-width: 420px){
+    .accordion-button {font-size: 1.5rem !important;}
+    p.faq_bodytext {font-size: 1.2rem;}
+}
 
 
 
