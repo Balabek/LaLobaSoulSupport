@@ -78,6 +78,7 @@ img.nav_logo {
     position: relative;
     display: inline-block;
     height: 135px;
+    top: -4px;
 }
 
 :root {

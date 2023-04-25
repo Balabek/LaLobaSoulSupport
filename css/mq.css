@@ -273,5 +273,50 @@
 
 
 
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ------ CONTACT (INNER PAGE) ------ */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* ====== */
+/* Form (section) */
+/* ====== */
+@media screen and (max-width: 991px){
+    form.laloba_contact_form {width: 94%;}
+    .contactform_deco_xl {width: 60vw; left: 115px;}
+}
+
+@media screen and (max-width: 575px){
+    form.laloba_contact_form {padding-left: 22px; padding-right: 22px;}
+    .contactform_deco_xl {width: 57vw; left: -100px;}
+}
+
+@media screen and (max-width: 384px){
+    button.laloba_send_btn {width: 190px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
