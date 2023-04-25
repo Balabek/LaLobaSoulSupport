@@ -103,22 +103,144 @@
     }
 
     ul.footer_networking {display: contents;}
+}
 
 
 
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ------ ABOUT (INNER PAGE) ------ */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 
+/* ====== */
+/* Header (section) */
+/* ====== */
+@media screen and (max-width: 767px){
+    h2.inner_header_title {font-size: 4rem;}
+}
+
+@media screen and (max-width: 440px){
+    h2.inner_header_title {font-size: 3.3rem;}
 }
 
 
 
 
+/* ====== */
+/* My Story (section) */
+/* ====== */
+@media screen and (max-width: 1199px){
+    .mystory_rectangle_xl_deco {right: -40px;}
+}
+
+@media screen and (max-width: 991px){
+    img.mystory_image {width: 100%;}
+    .mystory_rectangle_xl_deco {right: 10px; width: 100%; height: 380px;}
+}
+
+@media screen and (max-width: 767px){
+    .mystory_rectangle_xl_deco {right: -20px;}
+}
+
+@media screen and (max-width: 575px){
+    .mystory_area {padding-left: 16px; padding-right: 16px;}
+}
+
+
+
+/* ====== */
+/* Transformation (section) */
+/* ====== */
+@media screen and (max-width: 1010px){
+    img.transformation_image {height: 100%;}
+}
+
+@media screen and (max-width: 450px){
+    .transformation_txt_holder {padding-left: 28px; padding-right: 28px;}
+    h3.transformation_ttl {font-size: 2rem;}
+}
 
 
 
 
+/* ====== */
+/* Legend (section) */
+/* ====== */
+@media screen and (max-width: 991px){
+    img.legend {height: 100%;}
+    .legend_txt_holder {padding-left: 16px;}
+}
+
+@media screen and (max-width: 767px){
+    .legend_area {padding-top: 16px;}
+}
+
+@media screen and (max-width: 575px){
+    .legend_area {padding-left: 16px; padding-right: 16px;}
+    .abstract_flower_deco.one {width: 13rem;}
+    .quote_holder {width: 96%;}
+    .quote_holder h3 {font-size: 2.3rem;}
+    small.quote_author {font-size: 1.3rem;}
+}
 
 
 
+
+/* ====== */
+/* Journey (section) */
+/* ====== */
+@media screen and (max-width: 991px){
+    .journey_txt_holder {width: 99%;}
+}
+
+@media screen and (max-width: 399px){
+    h2.section_ttl {font-size: 8vw;}
+}
+
+
+
+
+/* ====== */
+/* Another Way (section) */
+/* ====== */
+@media screen and (max-width: 575px){
+    .another_way_area {padding-left: 16px; padding-right: 16px;}
+}
+
+
+
+
+/* ====== */
+/* Training (section) */
+/* ====== */
+@media screen and (max-width: 991px){
+    .training_txt_holder {padding-left: 0;}
+}
+
+@media screen and (max-width: 767px){
+    img.training_image {height: 100%;}
+}
+
+@media screen and (max-width: 575px){
+    .training_area {padding-left: 16px; padding-right: 16px;}
+}
+
+
+
+
+/* ====== */
+/* La Loba (section) */
+/* ====== */
+@media screen and (max-width: 767px){
+    img.laloba_logo_xxxl {width: 60%;}
+}
+
+@media screen and (max-width: 575px){
+    .laloba_area {padding-left: 16px; padding-right: 16px;}
+}
+
+@media screen and (max-width: 475px){
+    .abstract_flower_deco.two {width: 13rem;}
+}
 
 
 

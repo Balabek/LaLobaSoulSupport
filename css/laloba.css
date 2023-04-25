@@ -1233,7 +1233,7 @@ small.quote_author {
     position: absolute;
     z-index: 0;
     opacity: 0.8;
-    width: 18vw;
+    width: 18rem;
     height: 600px;
     top: -140px;
     right: 0;
@@ -1466,7 +1466,7 @@ img.laloba_logo_xxxl {
     position: absolute;
     z-index: 0;
     opacity: 0.9;
-    width: 20vw;
+    width: 20rem;
     height: 720px;
     top: -220px;
     left: 0;
