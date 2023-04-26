@@ -252,8 +252,12 @@
 /* ====== */
 /* The Way Down Is The Way Up (section) */
 /* ====== */
+@media screen and (max-width: 767px){
+    .the_way_up_is_the_way_down_area {padding-bottom: 24px;}
+}
+
 @media screen and (max-width: 575px){
-    .the_way_up_is_the_way_down_area {padding-left: 16px; padding-right: 16px; padding-bottom: 22px;}
+    .the_way_up_is_the_way_down_area {padding-left: 16px; padding-right: 16px; padding-bottom: 18px;}
 }
 
 
@@ -268,6 +272,8 @@
 @media screen and (max-width: 420px){
     .accordion-button {font-size: 1.5rem !important;}
     p.faq_bodytext {font-size: 1.2rem;}
+
+    ul.service_features_list li {font-size: 1.1rem;}
 }
 
 
@@ -292,6 +298,134 @@
 
 @media screen and (max-width: 384px){
     button.laloba_send_btn {width: 190px;}
+}
+
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ------ REIKI (INNER PAGE) ------ */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* ====== */
+/* Blue My Story (section) */
+/* ====== */
+@media screen and (max-width: 991px){
+    .mystory_small_deco_2 {left: 130px;}
+    .mystory_rectangle_xl_deco_blue_2 {height: 420px;}
+
+    .service_faq_area_reiki {padding-bottom: 80px;}
+}
+
+@media screen and (max-width: 767px){
+    .mystory_area.blue {padding-bottom: 90px;}
+    .mystory_small_deco_2 {left: -10px;}
+    .mystory_rectangle_xl_deco_blue_2 {width: 100vw; left: -6px;}
+
+}
+
+@media screen and (max-width: 440px){
+    p.faq_bodytext {font-size: 1.2rem !important;}
+    p.faq_bodytext {font-size: 1.2rem;}
+    ul.service_list li::before {font-size: 1rem;}
+    h4.cta_servicebox_ttl {font-size: 1.7rem;}
+}
+
+@media screen and (max-width: 390px){
+    .mystory_rectangle_xl_deco_blue_2 {height: 500px;}
+    h4.special_offer_ttl {font-size: 3.1rem;}
+}
+
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ------ RESOURCES (INNER PAGE) ------ */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* ====== */
+/* Three Books (section) */
+/* ====== */
+@media screen and (max-width: 991px){
+    .book_cover_holder {margin-bottom: 75px;}
+}
+
+@media screen and (max-width: 767px){
+    .three_books_area {padding-bottom: 22px;}
+}
+
+
+/* ====== */
+/* Tabular Selectors (section) */
+/* ====== */
+@media screen and (max-width: 991px){
+    .resource_selector {margin-bottom: 32px;}
+    .nav-link.resource_tab_link {width: 100%;}
+    .resource_data_holder {border-left: none; padding-left: 4px;}
+}
+
+@media screen and (max-width: 575px){
+    .all_resources_area {padding-left: 16px; padding-right: 16px;}
+    .resource_data_holder {padding-left: 12px;}
+    h2.intro_ttl {font-size: 3.1rem;}
+}
+
+@media screen and (max-width: 385px){
+    h2.intro_ttl {font-size: 2.7rem;}
+}
+
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ------ RITUALS (INNER PAGE) ------ */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* ====== */
+/* Rituals (section) */
+/* ====== */
+@media screen and (max-width: 767px){
+    .the_way_up_is_the_way_down_area_rituals {padding-bottom: 24px;}
+}
+
+@media screen and (max-width: 575px){
+    .the_way_up_is_the_way_down_area_rituals {padding-left: 16px; padding-right: 16px;}
+}
+
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ------ ALL SERVICES (INNER PAGE) ------ */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* ====== */
+/* All Services (section) */
+/* ====== */
+@media screen and (max-width: 767px){
+    .all_services_txt_holder {width: 99%;}
+}
+
+@media screen and (max-width: 414px){
+    a.quick_contactbox_button {width: 240px;}
+}
+
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* ------ Spiritual Direction (INNER PAGE) ------ */
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+/* ====== */
+/* Main (section) */
+/* ====== */
+@media screen and (max-width: 575px){
+    .standard_service_image {height: 100%;}
+}
+
+@media screen and (max-width: 360px){
+    .service_box {min-height: 440px;}
 }
 
 
