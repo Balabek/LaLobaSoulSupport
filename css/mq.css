@@ -265,6 +265,10 @@
 /* ====== */
 /* Service FAQ (section) */
 /* ====== */
+@media screen and (max-width: 767px){
+    .service_faq_area {padding-top: 24px;}
+}
+
 @media screen and (max-width: 575px){
     .accordion-button {font-size: 2rem !important;}
 }
@@ -274,6 +278,9 @@
     p.faq_bodytext {font-size: 1.2rem;}
 
     ul.service_features_list li {font-size: 1.1rem;}
+
+    .standard_service_image_deco.one {height: 300px;}
+    .standard_service_image_deco.two {height: 300px;}
 }
 
 
@@ -386,6 +393,7 @@
 /* ====== */
 @media screen and (max-width: 767px){
     .the_way_up_is_the_way_down_area_rituals {padding-bottom: 24px;}
+    .service_faq_area_rituals {padding-top: 22px;}
 }
 
 @media screen and (max-width: 575px){
