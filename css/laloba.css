@@ -2621,7 +2621,7 @@ ul.policy_list li::before {
     position: relative;
     top: -1px;
     font-family: "Font Awesome 6 Free";
-    content: '\f219';
+    content: '\f111';
     font-weight: 800;
     font-size: 0.8rem;
     color: #0ABAB5;
