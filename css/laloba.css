@@ -473,7 +473,7 @@ a.watch_vid_cta_button {
     transition: all 0.4s ease-in;
 }
 
-a.watch_vid_cta_button:hover {
+a.watch_vid_cta_button:hover, watch_vid_cta_button:focus, watch_vid_cta_button:active {
     background: rgba(250, 250, 250, 0.44);
     border: 1px solid #FFFFFF;
     color: #ffffff;
@@ -592,7 +592,7 @@ a.more_about_me_button {
     transition: all 0.4s ease-in;
 }
 
-a.more_about_me_button:hover {
+a.more_about_me_button:hover, more_about_me_button:focus, more_about_me_button:active {
     background: #088c88;
     color: #ffffff;
 }
@@ -818,7 +818,7 @@ a.booknow_cta_button {
     transition: all 0.4s ease-in;
 }
 
-a.booknow_cta_button:hover {
+a.booknow_cta_button:hover, booknow_cta_button:focus, booknow_cta_button:active {
     background: rgba(250, 250, 250, 0.44);
     border: 1px solid #FFFFFF;
     color: #ffffff;
@@ -987,8 +987,8 @@ ul.footer_networking li a:hover {
 }
 
 .modal-backdrop {
-    background-color: #DDC84E !important;
-    opacity: 0.8 !important;
+    background-color: #0f181e !important;
+    opacity: 0.95 !important;
 }
 
 .modal-header, .modal-body {background-color: #000000;}
@@ -1295,7 +1295,7 @@ a.journey_vid_cta_button {
     transition: all 0.4s ease-in;
 }
 
-a.journey_vid_cta_button:hover {
+a.journey_vid_cta_button:hover, a.journey_vid_cta_button:focus, a.journey_vid_cta_button:active {
     background: #088c88;;
     color: #ffffff;
 }
@@ -1626,7 +1626,7 @@ a.quick_contactbox_button {
     transition: all 0.4s ease-in;
 }
 
-a.quick_contactbox_button:hover {
+a.quick_contactbox_button:hover, a.quick_contactbox_button:focus, a.quick_contactbox_button:active {
     background: rgba(42, 51, 53, 0.9);
     border: 1px solid #2A3335;
     color: #DDC84E;
@@ -1731,7 +1731,7 @@ button.laloba_send_btn {
     transition: all 0.4s ease-in;
 }
 
-button.laloba_send_btn:hover {
+button.laloba_send_btn:hover, button.laloba_send_btn:focus, button.laloba_send_btn:active {
     background: #088c88;;
     color: #ffffff;
 }
@@ -2546,107 +2546,110 @@ ul.service_features_list li::before {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ••• */
+/* •••••••••••••••• */
+/* ••• */
 
 /* ============= */
-/* =========== TEST TEST TEST =========== */
+/* =========== POLICY/TERMS (TEXTUAL TEMPLATE) =========== */
 /* ============= */
 
-.laloba_header_area_test {
+.laloba_policy_template {
     position: relative;
-    min-height: 700px;
+    display: block;
+    min-height: 850px;
     height: auto;
+    padding: 30px 28px 30px 28px;
+    background: #fefefe;
 }
 
-.main_header_holder_test {
-    /*position: relative;*/
-    /*width: 100%;*/
-    /*max-height: 100vh !important;*/
-    /*overflow: hidden;*/
-
-    width:100%;
-    height:100vh;
-    overflow: hidden;
-}
-
-.main_header_holder_test::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
-    transition: all .3s linear;
-    -webkit-filter: brightness(60%);
-    filter: brightness(60%);
-}
-
-.vid_loop_test {
-    /*width: 100% !important;*/
-    /*height: auto !important;*/
-
-    object-fit: cover;
-    width:100%;
-    height:100%;
-    filter: brightness(70%);
-
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.h_banner_home_test {
-    display: block;
-    position: absolute;
-    width: 85%;margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 185px;
-    z-index: 2;
-}
-
-.h_banner_home_test h1 {
-    font-family: 'Kudry', serif;
-    font-size: 5rem;
+h2.policy_ttl {
+    font-size: 2.8rem;
     text-align: center;
-    color: #ffffff;
+    font-weight: 800;
+    color: #2C4251;
+    margin-bottom: 52px;
 }
 
-.h_banner_home_test p {
-    font-family: 'Kudry', serif;
-    font-size: 1.6rem;
-    text-align: center;
-    color: #ffffff;
+
+p.policy_text {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #666666;
+    line-height: 1.8;
+    text-align: left;
+    margin-bottom: 26px;
 }
+
+p.policy_text a {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #0ABAB5;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 26px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+p.policy_text a:hover {
+    color: #077572;
+}
+
+h3.policy_subttl {
+    font-size: 1.334rem;
+    text-align: left;
+    font-weight: 600;
+    color: #2C4251;
+    margin-bottom: 8px;
+}
+
+ul.policy_list {
+    padding-left: 0;
+}
+
+ul.policy_list li {
+    font-size: 1.1rem;
+    list-style-type: none;
+    font-weight: 400;
+    color: #666666;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+ul.policy_list li::before {
+    position: relative;
+    top: -1px;
+    font-family: "Font Awesome 6 Free";
+    content: '\f219';
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: #0ABAB5;
+    margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
