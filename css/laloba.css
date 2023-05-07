@@ -833,6 +833,7 @@ a.booknow_cta_button:hover, booknow_cta_button:focus, booknow_cta_button:active 
 /* ============= */
 
 .membership_area {
+    display: block;
     position: relative;
     padding-top: 55px;
     padding-bottom: 42px;
