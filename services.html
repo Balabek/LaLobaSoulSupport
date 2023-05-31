@@ -43,6 +43,22 @@
 </head>
 <body>
 
+<!-- Modal Video -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-bs-theme="dark"><i class="fa-regular fa-circle-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class="ratio ratio-16x9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NaMaqFikG2I" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="home" class="outermost_wrapper">
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -171,8 +187,11 @@
           <div class="quick_contactbox">
             <div class="quick_contactbox_content_holder text-center">
               <h4>Have questions?</h4>
-              <div class="quick_contactbox_button holder text-center">
+              <div class="quick_contactbox_button_holder text-center">
                 <a href="javascript:void(0)" class="quick_contactbox_button btn">Contact Me</a>
+              </div>
+              <div class="quick_contactbox_button_holder text-center">
+                <a href="javascript:void(0)" class="quick_watchvid_button btn" data-bs-toggle="modal" data-bs-target="#videoModal">Watch Video</a>
               </div>
             </div>
           </div>
