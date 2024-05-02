@@ -438,10 +438,32 @@
 
 
 
+/* ••• */
+/* •••••••• Additional Pages 2024 •••••••• */
+/* ••• */
 
+/* ============= */
+/* =========== MEDIA =========== */
+/* ============= */
 
+@media screen and (max-width: 991px){
+    .latest_video_holder {width: 95%;}
+    .blogbox.latest {width: 95%;}
+    .laloba_video.latest_vid {height: 400px;}
 
+}
 
+@media screen and (max-width: 575px){
+    .latest_media_area {min-height: 455px;}
+    .latest_video_holder {width: 95%;}
+    .laloba_video.latest_vid {height: 300px;}
+    .latest_vid_decoration_square {display: none;}
+    .all_media_area {padding-left: 16px; padding-right: 16px;}
+    .blog_details_area {padding-left: 16px; padding-right: 16px; padding-top: 24px;}
+    .laloba_video.regular_vid {height: 280px;}
+    .blog_post_notes {display: block;}
+    button.goto_all_blogs_btn {float: none !important; width: 100%;}
+}
 
 
 
