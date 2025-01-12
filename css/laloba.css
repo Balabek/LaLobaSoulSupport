@@ -233,7 +233,7 @@ img.nav_logo {
 .menu > .menu__item {
     font-family: var(--font-family-secondary);
     /*font-size: 10vmin;*/
-    font-size: 38px;
+    font-size: 28px;
 }
 .submenu {
     left: 0;
@@ -883,7 +883,7 @@ img.member_logo.size_reduction {
 footer.laloba_footer {
     position: relative;
     display: block;
-    min-height: 440px;
+    min-height: 800px;
     height: auto;
     padding-top: 65px;
     padding-bottom: 55px;
@@ -892,6 +892,61 @@ footer.laloba_footer {
 
 .footer_content_outermost {
     padding-top: 36px;
+}
+
+.newsletter_subsection {
+    display: flex;
+    align-items: center;
+    min-height: 210px;
+    width: 100%;
+    /*background: #DDC84E;*/
+    background: url("../img/yellow_contact_ctabox.png") no-repeat;
+    padding: 42px;
+    margin-bottom: 85px;
+}
+
+h1.newsletter_title {
+    font-family: 'Kudry', serif;
+    font-size: 2.5rem;
+    color: #000000;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+h5.newsletter_aux_txt {
+    font-size: 1.32rem;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+}
+
+a.newsletter_cta_button {
+    float: right;
+    display: inline-grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    z-index: 3;
+    height: 65px;
+    width: 300px;
+    border-radius: 1px;
+    background: #000000;
+    border: 1px solid #000000;
+    font-style: normal;
+    color: #DDC84E;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: all 0.4s ease-in;
+}
+
+a.newsletter_cta_button:hover, a.newsletter_cta_button:focus, a.newsletter_cta_button:active {
+    background: rgba(0,0,0,0.04);
+    border: 1px solid #000000;
+    color: #000000;
 }
 
 img.footerlogo {
@@ -2946,6 +3001,7 @@ p.blog_para {
     font-weight: 300;
     color: #666666;
     text-align: left;
+    user-select: none !important;
 }
 
 ul.blog_list {
@@ -3015,17 +3071,550 @@ button.goto_all_blogs_btn:hover, button.goto_all_blogs_btn:focus, button.goto_al
 
 
 
+/* ••• */
+/* ••••••••
+█▀█ █▀▀█ █▀█ █▀▀ 　 ▒█░▒█ ▒█▀▀█ ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ▒█▀▀▀ ▒█▀▀▀█
+░▄▀ █▄▀█ ░▄▀ ▀▀▄ 　 ▒█░▒█ ▒█▄▄█ ▒█░▒█ ▒█▄▄█ ░▒█░░ ▒█▀▀▀ ░▀▀▀▄▄
+█▄▄ █▄▄█ █▄▄ ▄▄▀ 　 ░▀▄▄▀ ▒█░░░ ▒█▄▄▀ ▒█░▒█ ░▒█░░ ▒█▄▄▄ ▒█▄▄▄█
+•••••••• */
+/* ••• */
+
+/* ============= */
+/* =========== IN THE SACRED CIRCLE (INNER PAGE) =========== */
+/* ============= */
+
+.sacred_circle_area {
+    position: relative;
+    min-height: 800px;
+    background: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sacred_circle_outermost {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+.sacred_circle_image_holder {
+    position: relative;
+}
+
+.sacred_circle_image {
+    position: relative;
+    left: 10%;
+    z-index: 1;
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+
+.standard_service_image_deco.three {
+    position: absolute;
+    z-index: 0;
+    width: 455px;
+    height: 85%;
+    top: 155px;
+    right: 10%;
+    background: rgba(10, 186, 181, 0.05);
+}
+
+.monthly_rituals_area {
+    position: relative;
+    min-height: 800px;
+    background: #fbfbfb;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.monthly_rituals_stack {
+    padding-top: 95px;
+}
+
+.ritual_event_card {
+    display: flex;
+    align-items: flex-start;
+    /*align-items: center; */
+    flex-wrap: wrap;
+    margin-bottom: 85px;
+}
+
+img.event_pic {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.ritual_event_content {
+    position: relative;
+    padding-left: 32px; /* Adjust spacing as needed */
+}
+
+h3.event_title {
+    font-size: 2rem;
+    color: #2A3335;
+    font-weight: 600;
+    text-align: left;
+}
+
+.event_options {
+    display: inline-flex;
+    margin-bottom: 16px;
+}
+
+.option {
+    display: flex;
+    margin-right: 36px;
+}
+
+span.option_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+span.option_icon.calendar.blue {background: url("../img/calendar_blue.svg") center center no-repeat; background-size: contain;}
+span.option_icon.clock.blue {background: url("../img/clock_blue.svg") center center no-repeat;background-size: contain;}
+span.option_icon.format.blue {background: url("../img/format_blue.svg") center center no-repeat;background-size: contain;}
+
+span.option_icon.calendar.gold {background: url("../img/calendar_gold.svg") center center no-repeat; background-size: contain;}
+span.option_icon.clock.gold {background: url("../img/clock_gold.svg") center center no-repeat;background-size: contain;}
+span.option_icon.format.gold {background: url("../img/format_gold.svg") center center no-repeat;background-size: contain;}
+
+h6.option_text {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #2A3335;
+    padding-left: 8px;
+}
+
+/* ~~~~~ Monthly Rituals Event Details Holder Styling ~~~~~ */
+.event_details_holder_monthly {
+    height: 400px;
+    max-height: 270px; /* Set the maximum height for the wrapper */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the max height */
+    scroll-behavior: smooth;
+    padding: 10px 0 10px 0; /* Add some padding for content spacing */
+    background: #fbfbfb;
+}
+
+/* Add blurry edges */
+.event_details_holder_monthly::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 94%;
+    height: 40px; /* Height of the blur */
+    background: linear-gradient(to top, rgba(251, 251, 251, 1), rgba(251, 251, 251, 0));
+    z-index: 1;
+    pointer-events: none; /* Ensure it doesn’t block interactions */
+}
+
+/* Blurry edge at the bottom */
+.event_details_holder_monthly::after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(251, 251, 251, 1), rgba(251, 251, 251, 0));
+}
+
+/* Custom scrollbar styles */
+.event_details_holder_monthly::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.event_details_holder_monthly::-webkit-scrollbar-thumb {
+    background-color: #DDC84E; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #f4f4f4; /* Adds padding-like effect */
+}
+
+.event_details_holder_monthly::-webkit-scrollbar-thumb:hover {
+    background-color: #b2a13c; /* Color when hovered */
+}
+
+.event_details_holder_monthly::-webkit-scrollbar-track {
+    background-color: #f4f4f4; /* Color of the scrollbar track */
+    border-radius: 5px;
+}
+
+
+/* ~~~~~ Sacred Dream Event Details Holder Styling ~~~~~ */
+.event_details_holder_sacred_dream {
+    height: 400px;
+    max-height: 270px; /* Set the maximum height for the wrapper */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the max height */
+    scroll-behavior: smooth;
+    padding: 10px 0 10px 0; /* Add some padding for content spacing */
+    background: #20323F;
+}
+
+/* Add blurry edges */
+.event_details_holder_sacred_dream::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 94%;
+    height: 40px; /* Height of the blur */
+    background: linear-gradient(to top, rgba(32, 50, 63, 1), rgba(32, 50, 63, 0));
+    z-index: 1;
+    pointer-events: none; /* Ensure it doesn’t block interactions */
+}
+
+/* Blurry edge at the bottom */
+.event_details_holder_sacred_dream::after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(32, 50, 63, 1), rgba(32, 50, 63, 0));
+}
+
+/* Custom scrollbar styles */
+.event_details_holder_sacred_dream::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.event_details_holder_sacred_dream::-webkit-scrollbar-thumb {
+    background-color: #DDC84E; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #f4f4f4; /* Adds padding-like effect */
+}
+
+.event_details_holder_sacred_dream::-webkit-scrollbar-thumb:hover {
+    background-color: #b2a13c; /* Color when hovered */
+}
+
+.event_details_holder_sacred_dream::-webkit-scrollbar-track {
+    background-color: #f4f4f4; /* Color of the scrollbar track */
+    border-radius: 5px;
+}
+
+/* ~~~~~ Perinatal Event Details Holder Styling ~~~~~ */
+.event_details_holder_perinatal {
+    height: 400px;
+    max-height: 270px; /* Set the maximum height for the wrapper */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the max height */
+    scroll-behavior: smooth;
+    padding: 10px 0 10px 0; /* Add some padding for content spacing */
+    background: #FAF8EB;
+}
+
+/* Add blurry edges */
+.event_details_holder_perinatal::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 94%;
+    height: 40px; /* Height of the blur */
+    background: linear-gradient(to top, rgba(250, 248, 235, 1), rgba(250, 248, 235, 0));
+    z-index: 1;
+    pointer-events: none; /* Ensure it doesn’t block interactions */
+}
+
+/* Blurry edge at the bottom */
+.event_details_holder_perinatal::after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(250, 248, 235, 1), rgba(250, 248, 235, 0));
+}
+
+/* Custom scrollbar styles */
+.event_details_holder_perinatal::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.event_details_holder_perinatal::-webkit-scrollbar-thumb {
+    background-color: #DDC84E; /* Color of the scrollbar handle */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #f4f4f4; /* Adds padding-like effect */
+}
+
+.event_details_holder_perinatal::-webkit-scrollbar-thumb:hover {
+    background-color: #b2a13c; /* Color when hovered */
+}
+
+.event_details_holder_perinatal::-webkit-scrollbar-track {
+    background-color: #f4f4f4; /* Color of the scrollbar track */
+    border-radius: 5px;
+}
+
+p.event_details {
+    font-size: 1.186rem;
+    font-weight: 300;
+    color: #666666;
+    text-align: left;
+    line-height: 1.6;
+    padding-right: 42px;
+}
+
+.event_booking_btn_holder {
+    position: absolute;
+    bottom: -18%;
+}
+
+a.event_booking_btn {
+    display: inline-grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    z-index: 2;
+    height: 50px;
+    width: 300px;
+    border-radius: 1px;
+    background: #2C4251;
+    font-style: normal;
+    color: #ffffff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.4s ease-in;
+}
+
+a.event_booking_btn:hover, a.event_booking_btn:focus, a.event_booking_btn:active {
+    background: rgba(44, 66, 81, 0.83);
+    color: #ffffff;
+}
+
+h5.event_subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2C4251;
+    text-align: left;
+}
+
+ul.event_options_list {
+    padding-left: 12px;
+}
+
+ul.event_options_list li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    font-size: 1.186rem;
+    font-weight: 300;
+    color: #666666;
+    text-indent: -22px;
+    margin-left: 22px;
+}
+
+ul.event_options_list li::before {
+    position: relative;
+    top: -1px;
+    font-family: "Font Awesome 6 Free";
+    content: '\f111';
+    font-weight: 800;
+    font-size: 0.7rem;
+    color: #20323F;
+    margin-right: 8px;
+}
+
+.support_programs_area {
+    position: relative;
+    min-height: 800px;
+    background: #20323F;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.support_programs_stack {
+    padding-top: 95px;
+}
+
+a.event_booking_btn_white {
+    display: inline-grid;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    z-index: 2;
+    height: 50px;
+    width: 300px;
+    border-radius: 1px;
+    background: #ffffff;
+    font-style: normal;
+    color: #2C4251;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.4s ease-in;
+}
+
+a.event_booking_btn_white:hover, a.event_booking_btn_white:focus, a.event_booking_btn_white:active {
+    border: 1px solid #ffffff;
+    background: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+.perinatal_programs_area {
+    position: relative;
+    min-height: 800px;
+    background: #FAF8EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.perinatal_programs_outermost {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.perinatal_programs_stack {
+    padding-top: 28px;
+}
 
 
 
 
+/* ============= */
+/* =========== SPACE RENTAL (INNER PAGE) =========== */
+/* ============= */
 
+.space_rental_area {
+    position: relative;
+    min-height: 725px;
+    background: #f9f9f9;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
+.space_rental_outermost {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+}
 
+.rental_planbox_holder {
+    height: 374px;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+}
 
+.rental_planbox {
+    position: relative;
+    width: 90% !important;
+    min-height: 374px;
+    margin-bottom: 65px;
+    height: auto;
+    padding: 0;
+    background: #FFFFFF;
+    box-shadow: 0 4px 210px rgba(0, 0, 0, 0.12);
+}
 
+h4.rental_planbox_ttl {
+    font-weight: 800;
+    font-size: 1.7rem;
+    text-align: center;
+    color: #ffffff;
+}
 
+.rental_info_area {
+    position: relative;
+    min-height: 900px;
+    background: #20323F; /* Main background color */
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
+.rental_info_image_holder {
+    position: relative;
+}
+
+img.rental_info_image {
+    position: relative;
+    z-index: 1; /* Ensures the image is on top of the decorative block */
+    width: 100%; /* Scales to container width */
+    max-width: 520px; /* Set max width for better control */
+    height: 500px;
+    top: 7.3rem;
+    object-fit: contain;
+    left: 10%; /* Horizontal spacing */
+}
+
+.standard_service_image_deco.four {
+    position: absolute;
+    z-index: 0; /* Sits behind the image */
+    width: 355px;
+    height: 50rem;
+    top: 0; /* Vertical spacing for alignment */
+    left: 5%; /* Horizontal alignment */
+    background: #0E1D26; /* Decorative block color */
+}
+
+.rental_info_text {
+    position: relative;
+    padding-top: 6rem;
+}
+
+h5.rental_subtitle {
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+ul.rental_info_list {
+    padding-left: 1px;
+    margin-bottom: 72px;
+}
+
+ul.rental_info_list li {
+    list-style-type: none;
+    margin-bottom: 18px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ffffff;
+    text-indent: -22px;
+    margin-left: 22px;
+}
+
+ul.rental_info_list li::before {
+    position: relative;
+    top: -1px;
+    font-family: "Font Awesome 6 Free";
+    content: '\f058';
+    font-weight: 800;
+    font-size: 1rem;
+    color: #DDC84E;
+    margin-right: 8px;
+}
+
+.space_share_area {
+    position: relative;
+    min-height: 620px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background: #ffffff;
+}
+
+h4.spaceshare_ttl {
+    font-weight: 800;
+    font-size: 3.6rem;
+    line-height: 0.9;
+    color: #2C4251;
+    margin-bottom: 22px;
+}
+
+p.spaceshare_text {
+    font-weight: 400;
+    font-size: 1.44rem;
+    color: #2C4251;
+}
+
+span.highlight {
+    font-size: 1.46rem;
+    font-weight: 700;
+    color: #2C4251;
+}
 
 
 
