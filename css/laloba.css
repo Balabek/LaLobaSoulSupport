@@ -3664,13 +3664,6 @@ span.highlight {
     background: #fefefe;
 }
 
-#newsletter_body {
-    overflow: hidden;
-    background: #f2f2f2;
-    height: 100vh;
-    margin: 0;
-}
-
 .laloba_newsletter_form {
     position: relative;
     z-index: 999;
