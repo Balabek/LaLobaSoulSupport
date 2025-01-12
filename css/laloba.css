@@ -3627,44 +3627,35 @@ span.highlight {
 /* =========== NEWSLETTER FORM (SIMPLE EXTRA PAGE) =========== */
 /* ============= */
 
-/* Wrapper to ensure no scrolling */
-.form-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+.laloba_newsletter_area {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-attachment: fixed;
+    overflow: auto;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
 }
 
-.form-wrapper::before {
+.laloba_newsletter_area::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("../img/wolves.png") center center no-repeat;
+    background: url("../img/about_header_bgd.webp") center center no-repeat;
     background-size: cover;
-    filter: blur(5px) brightness(0.7);
-    z-index: 1;
+    filter: blur(9px) brightness(0.9); /* Add CSS filters here */
+    z-index: 1; /* Ensure it sits behind the content */
 }
 
-
-.laloba_newsletter_area {
-    width: 98%;
-    max-width: 500px;
-    height: 100vw;
-    overflow: hidden;
-    padding: 30px;
-    background: #fefefe;
+.form-wrapper {
+    display: block;
+    width: 95%;
 }
 
 .laloba_newsletter_form {
     position: relative;
-    z-index: 999;
+    z-index: 99;
 }
