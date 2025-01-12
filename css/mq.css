@@ -469,6 +469,98 @@
 
 
 
+/* ••• */
+/* ••••••••
+█▀█ █▀▀█ █▀█ █▀▀ 　 ▒█░▒█ ▒█▀▀█ ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ▒█▀▀▀ ▒█▀▀▀█
+░▄▀ █▄▀█ ░▄▀ ▀▀▄ 　 ▒█░▒█ ▒█▄▄█ ▒█░▒█ ▒█▄▄█ ░▒█░░ ▒█▀▀▀ ░▀▀▀▄▄
+█▄▄ █▄▄█ █▄▄ ▄▄▀ 　 ░▀▄▄▀ ▒█░░░ ▒█▄▄▀ ▒█░▒█ ░▒█░░ ▒█▄▄▄ ▒█▄▄▄█
+•••••••• */
+/* ••• */
+
+/* ============= */
+/* =========== IN THE SACRED CIRCLE =========== */
+/* ============= */
+
+@media screen and (max-width: 1399px){
+    img.rental_info_image {left: 0;}
+    .standard_service_image_deco.four {left: 0;}
+
+    h4.spaceshare_ttl {font-size: 3.3rem;}
+}
+
+@media screen and (max-width: 1199px){
+    h5.newsletter_aux_txt {padding-right: 24px;}
+
+    h4.spaceshare_ttl {font-size: 2.8rem;}
+}
+
+@media screen and (max-width: 991px){
+    .sacred_circle_image {left: 0;}
+    .monthly_rituals_stack {padding-top: 64px;}
+    .ritual_event_card {margin-bottom: 185px;}
+    .ritual_event_content {padding-left: 0; padding-top: 18px;}
+    .ritual_event_image {width: 100%;}
+    h6.option_text {font-size: 1.1rem;}
+    h3.event_title {font-size: 1.8rem;}
+    span.option_icon {width: 17px; height: 17px;}
+
+    .newsletter_subsection {display: block; width: 95%;}
+    h1.newsletter_title {text-align: center;}
+    h5.newsletter_aux_txt {text-align: center; margin-bottom: 42px;}
+    .newsletter_button {display: flex; justify-content: center;}
+
+    .rental_planbox_holder {margin-bottom: 55px;}
+
+    img.rental_info_image {margin-bottom: 42px; top: 0;}
+    .rental_info_text {padding-top: 0;}
+    .standard_service_image_deco.four {height: 22rem;}
+
+    .space_share_area {padding-bottom: 120px;}
+}
+
+@media screen and (max-width: 767px){
+    .event_options {display: block;}
+    .option {margin-right: 0; margin-bottom: 8px;}
+}
+
+@media screen and (max-width: 575px){
+    .sacred_circle_area {padding-left: 22px; padding-right: 22px; padding-bottom: 12px;}
+    .artificial_gap_3 {margin-bottom: 2px;}
+    .ritual_event_card {padding-left: 26px; padding-right: 26px;}
+    .perinatal_programs_outermost {padding-left: 22px; padding-right: 22px;}
+
+    .rental_info_outermost {padding-left: 22px; padding-right: 22px;}
+    img.rental_info_image {margin-bottom: 0;}
+
+    h4.rental_planbox_ttl {font-size: 1.4rem;}
+}
+
+@media screen and (max-width: 460px){
+    img.rental_info_image {height: 412px;}
+    .rental_info_area {padding-top: 50px; padding-bottom: 30px;}
+}
+
+@media screen and (max-width: 400px){
+    img.rental_info_image {height: 360px;}
+}
+
+@media screen and (max-width: 385px){
+    h1.newsletter_title {font-size: 2.3rem;}
+    h5.newsletter_aux_txt {font-size: 1.2rem;}
+}
+
+@media screen and (max-width: 360px){
+    a.event_booking_btn {width: 250px;}
+    a.event_booking_btn_white {width: 250px;}
+
+    img.rental_info_image {height: 320px;}
+    .standard_service_image_deco.four {left: -220px;}
+    h5.rental_subtitle {font-size: 1.6rem;}
+}
+
+
+
+
 
 
 

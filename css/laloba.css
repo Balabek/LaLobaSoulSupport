@@ -3091,6 +3091,10 @@ button.goto_all_blogs_btn:hover, button.goto_all_blogs_btn:focus, button.goto_al
     padding-bottom: 80px;
 }
 
+.artificial_gap_3 {
+    margin-bottom: 90px;
+}
+
 .sacred_circle_outermost {
     position: relative;
     display: flex;
@@ -3619,10 +3623,55 @@ span.highlight {
 
 
 
+/* ============= */
+/* =========== NEWSLETTER FORM (SIMPLE EXTRA PAGE) =========== */
+/* ============= */
+
+/* Wrapper to ensure no scrolling */
+.form-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.form-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/wolves.png") center center no-repeat;
+    background-size: cover;
+    filter: blur(5px) brightness(0.7);
+    z-index: 1;
+}
 
 
+.laloba_newsletter_area {
+    width: 98%;
+    max-width: 500px;
+    height: 100vw;
+    overflow: hidden;
+    padding: 30px;
+    background: #fefefe;
+}
 
+#newsletter_body {
+    overflow: hidden;
+    background: #f2f2f2;
+    height: 100vh;
+    margin: 0;
+}
 
-
-
-
+.laloba_newsletter_form {
+    position: relative;
+    z-index: 999;
+}
